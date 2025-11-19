@@ -11,9 +11,9 @@ Projeto CTF acadêmico — Simulação de ataque forense a um banco fictício
 
 
   - **Websites do Projeto SecureFlag:** 
-    - [Website - Yaldabaoth Home CTF Project](https://cauan33xl.github.io/yaldabaoth-home-ctf-project/)
-    - [Website - Sistema Simulado de RH](https://cauan33xl.github.io/SecureFlag-Sistema-Simulado-RH/)
-    - [Website - Yaldabaoth Email Corporate CTF Project](https://cauan33xl.github.io/yaldabaoth-email-corporate-ctf-project/)
+    - [Website - Yaldabaoth Home CTF Project](https://yaldabaoth-bank-home-ctf.vercel.app/)
+    - [Website - Yaldabaoth Email Corporate CTF Project](https://yaldabaoth-bank-email-ctf.vercel.app/)
+    - [Website - Sistema Simulado de RH](https://yaldabaoth-sistema-rh-ctf.vercel.app/)
 
   - **Plataforma Principal do Projeto CTF SecureFlag:** 
     - [Website - SecureFlag CTF Plataforma de Desafios](https://secureflagctf.svxsec.com/page)
@@ -411,43 +411,42 @@ Prof. Rômulo Valadares - UNICEPLAC
 
 # English Readme Version
 
-# Secure Flag - CTF Project
-**Yaldabaoth-Home & Yaldabaoth-Bank-Corporate**  
-Academic CTF Project — Forensic Attack Simulation on a Fictitious Bank
+## Secure Flag - CTF Project
+**Yaldabaoth-Home & Yaldabaoth-Bank-Corporate**
+Academic CTF Project — Forensic attack simulation on a fictional bank
 
-- **Access to project links:**  
+- **Access to Project Links:**
 
   - **Github Repositories:**
     - [Github - Yaldabaoth Home CTF Project](https://github.com/Cauan33XL/yaldabaoth-home-ctf-project)
     - [Github - Simulated HR System](https://github.com/Cauan33XL/SecureFlag-Sistema-Simulado-RH)
     - [Github - Yaldabaoth Email Corporate CTF Project](https://github.com/Cauan33XL/yaldabaoth-email-corporate-ctf-project)
 
+  - **SecureFlag Project Websites:**
+    - [Website - Yaldabaoth Home CTF Project](https://yaldabaoth-bank-home-ctf.vercel.app/)
+    - [Website - Yaldabaoth Email Corporate CTF Project](https://yaldabaoth-bank-email-ctf.vercel.app/)
+    - [Website - Simulated HR System](https://yaldabaoth-sistema-rh-ctf.vercel.app/)
 
-  - **SecureFlag Project Websites:** 
-    - [Website - Yaldabaoth Home CTF Project](https://cauan33xl.github.io/yaldabaoth-home-ctf-project/)
-    - [Website - Simulated HR System](https://cauan33xl.github.io/SecureFlag-Sistema-Simulado-RH/)
-    - [Website - Yaldabaoth Email Corporate CTF Project](https://cauan33xl.github.io/yaldabaoth-email-corporate-ctf-project/)
-
-  - **Main Platform of the CTF SecureFlag Project:** 
+  - **Main SecureFlag CTF Platform:**
     - [Website - SecureFlag CTF Challenge Platform](https://secureflagctf.svxsec.com/page)
-      
+
 ---
 
-**Team:**  
-- CAUAN GABRIEL MATOS SILVA  
-- CAIO LUIZ MATOS DE OLIVEIRA  
-- FILIPE AUGUSTO DA SILVA CARDOSO  
+**Team:**
+- CAUAN GABRIEL MATOS SILVA
+- CAIO LUIZ MATOS DE OLIVEIRA
+- FILIPE AUGUSTO DA SILVA CARDOSO
 - GABRIEL DE LIMA ADRIANO
 
-**Institution:** Centro Universitário do Planalto Central — UNICEPLAC  
-**Course / Advisor:** Integrated Project / Computer Forensics — Prof. Rômulo Valadares  
-**Period:** 08/30/2025 — 12/09/2025  
+**Institution:** Centro Universitário do Planalto Central — UNICEPLAC
+**Discipline / Advisor:** Integrated Project / Computer Forensics — Prof. Rômulo Valadares
+**Period:** 08/30/2025 — 12/09/2025
 **Location:** Gama-DF, 2025
 
 ---
 
 ## Table of Contents
-- [Summary](#summary)
+- [Abstract](#abstract)
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Justification](#justification)
@@ -467,27 +466,27 @@ Academic CTF Project — Forensic Attack Simulation on a Fictitious Bank
 
 ---
 
-## Summary
+## Abstract
 
-Secure Flag is an educational Capture The Flag (CTF) environment focused on forensic cybersecurity. The project delivers two interconnected fictional websites — **Yaldabaoth-Home** (entry portal) and **Yaldabaoth-Bank-Corporate** (banking target) — along with complete documentation and a challenge manager (CTFd — optional).
+Secure Flag is a didactic Capture The Flag (CTF) environment focused on forensic cybersecurity. The project delivers two interconnected fictional websites — **Yaldabaoth-Home** (entry portal) and **Yaldabaoth-Bank-Corporate** (banking target) — in addition to complete documentation and a challenge manager (CTFd — optional).
 
-This initiative addresses three central challenges:
+This initiative seeks to address three central challenges:
 - High demand for cybersecurity professionals
-- Scarcity of practical experiences in academia
+- Scarcity of practical experiences in the academic environment
 - Development of problem-solving skills
 
-Flags and clues are strategically distributed across pages, emails, and assets, aiming to teach digital investigation, log analysis, reverse engineering, and networking through gamification.
+Flags and clues are strategically distributed across pages, emails, and assets, with the goal of teaching digital investigation, log analysis, reverse engineering, and networking through gamification.
 
 ---
 
 ## Introduction
 
-Faced with the scarcity of practical experience in digital security in academia and the deficit of qualified professionals, we designed a pedagogical CTF that simulates an incident in a financial institution. The proposal combines hands-on experimentation, detailed technical documentation, and structured learning paths.
+Given the scarcity of practical experience in digital security within the academic environment and the deficit of qualified professionals, we designed a pedagogical CTF that simulates an incident at a financial institution. The proposal combines hands-on experimentation, detailed technical documentation, and structured learning scripts.
 
 **Market Context:**
 - Deficit of approximately 750,000 cybersecurity professionals in Brazil (IBSEC)
-- Growing interest among young people in the field, but lack of practical preparation
-- Need to bridge academic theory and professional reality
+- Growing interest among young people in the field, but a lack of practical preparation
+- Need to bridge the gap between academic theory and professional reality
 
 **Educational Approach:**
 - Challenges inspired by real cases in the financial sector
@@ -500,54 +499,54 @@ Faced with the scarcity of practical experience in digital security in academia 
 
 ### General Objectives
 - Build a practical and safe environment for forensic cybersecurity training
-- Provide documented and scalable challenges (beginner → intermediate)
+- Provide documented and scalable challenges (Beginner → Intermediate)
 - Produce reusable material for academic use
-- Provide easy local deployment flow
+- Make an easy local deploy flow available
 
 ### Specific Objectives
-- Assist those interested in security/forensics with a practical view of professional daily life
-- Spark curiosity and develop problem-solving skills through gamification
-- Encourage deepening of computing knowledge for IT students
-- Test knowledge in Linux, Windows, programming logic, log analysis, and networking
+- Assist those interested in the security/forensics area with a practical view of daily professional life
+- Spark curiosity and develop problem-solving skills via gamification
+- Encourage deep diving into computing knowledge for IT students
+- Test knowledge in Linux, Windows, programming logic, log analysis, and networks
 - Provide a practical, fun, and educational experience in cybersecurity
 
 ---
 
 ## Justification
 
-### Problems Addressed
+### Addressed Problems
 1. **High Professional Demand**: Growing market with a deficit of 750,000 professionals
-2. **Lack of Practical Experiences**: Shortage of hands-on opportunities in traditional education
-3. **Skills Development**: Need for problem-solving competencies
+2. **Lack of Practical Experiences**: Lack of hands-on opportunities in traditional teaching
+3. **Skill Development**: Need for competencies in problem-solving
 
-### Statistical Foundation
-- According to Correio Braziliense: "Cybersecurity grows in Brazil and lacks qualified professionals"
-- IBSEC data: Brazil faces critical deficit of specialists in the field
-- Research indicates 87% of companies suffered security incidents in 2023
+### Statistical Basis
+- According to *Correio Braziliense*: "Cybersecurity grows in Brazil and qualified professionals are lacking"
+- IBSEC Data: Brazil faces a critical deficit of specialists in the area
+- Research indicates that 87% of companies suffered security incidents in 2023
 
 ### Proposed Solution
 - CTF as a practical and engaging learning tool
 - Realistic simulations in a controlled environment
-- Gradual formation of new talent through progressive challenges
+- Gradual formation of new talents through progressive challenges
 
 ---
 
 ## Methodology
 
 ### Development Approach
-- **Case-based Design**: Challenges inspired by real incidents in the financial sector
+- **Design by Case**: Challenges inspired by real incidents in the financial sector
 - **Iterative Prototyping**: Figma for screen design and user flows
 - **Progressive Implementation**: Continuous cycle of MVP → tests → refinements
 - **Controlled Environment**: Local servers and containers for safe testing
-- **Pedagogical Documentation**: Detailed scripts with clear objectives and contextual tips
+- **Pedagogical Documentation**: Detailed scripts with clear objectives and contextual hints
 
-### Technical Terms Glossary
+### Glossary of Technical Terms
 | Term | Definition |
-|------|------------|
-| **CTF** | Challenge competition to train cybersecurity |
+|-------|-----------|
+| **CTF** | Challenge competition to train cybersecurity skills |
 | **Cybersecurity** | Protection of computers, networks, and information |
 | **Forensic Security** | Digital investigation of virtual crimes |
-| **Reverse Engineering** | System analysis to understand operation |
+| **Reverse Engineering** | Analysis of systems to understand their function |
 | **Log Analysis** | Reading system records for investigation |
 | **Docker** | Tool for creating and running containers |
 
@@ -558,11 +557,11 @@ Faced with the scarcity of practical experience in digital security in academia 
 ### Developed Products
 - **Yaldabaoth-Home**: Complete landing page with explanatory video and navigation
 - **Yaldabaoth-Bank-Corporate**: Simulated banking website with corporate email
-- **CTF Platform Secure Flag**: Challenge manager with ranking system
+- **Secure Flag CTF Platform**: Challenge manager with ranking system
 
 ### Documentation and Artifacts
 - Complete technical documentation (README, scripts, reports)
-- Deployment files (Docker, configuration scripts)
+- Deploy files (Docker, configuration scripts)
 - Figma prototypes and test evidence
 - Licenses: MIT for code, CC BY-NC-SA 4.0 for content
 
@@ -571,16 +570,16 @@ Faced with the scarcity of practical experience in digital security in academia 
 ## Project Development
 
 ### Yaldabaoth-Home
-**Function**: Starting point of the attack and initial flag capture
+**Function**: Starting point of the attack and capture of initial flags
 
-**Main Features:**
+**Main Characteristics:**
 - "Best Offers" section with realistic promotions
-- "Specialists Team" section with emails for reverse engineering
+- "Specialist Team" section with emails for reverse engineering
 - Intuitive navigation between sections
-- Light/dark theme toggle buttons
+- Light/Dark theme toggle buttons
 
 ### Yaldabaoth-Bank-Corporate
-**Realistic Banking Environment Simulation**
+**Real Banking Environment Simulation**
 
 **Corporate Email System:**
 - Login screen with rigorous validation
@@ -588,14 +587,14 @@ Faced with the scarcity of practical experience in digital security in academia 
 - Features: light/dark mode, navigation, logout
 - Fictional employee emails with strategic flags
 
-### CTF Platform Secure Flag
+### Secure Flag CTF Platform
 **Complete Management System**
 
-**Main Resources:**
+**Main Features:**
 - Support for 20 different languages
 - Registration system controlled by code
 - Exclusively individual challenges
-- Competitive real-time ranking
+- Real-time competitive ranking
 - Responsive and intuitive interface
 
 **Implemented Screens:**
@@ -611,12 +610,12 @@ Faced with the scarcity of practical experience in digital security in academia 
 
 ### Submission System
 - Automatic flag validation
-- Immediate user feedback
+- Immediate feedback for users
 - Progressive scoring per challenge
 
 ### Hint System
 - Contextual hint mechanism
-- Progressive score penalty
+- Progressive penalty on scoring
 - Support for different difficulty levels
 
 ### User Management
@@ -644,13 +643,12 @@ Yaldabaoth-Bank-Corporate
 ↓
 Flag Submission → Validation → Scoring
 
-
 ### Operational Flow
 1. **Initial Access**: User accesses Yaldabaoth-Home
-2. **Exploration**: Navigates through pages and collects clues
+2. **Exploration**: Navigates pages and collects clues
 3. **Investigation**: Interacts with corporate email and assets
 4. **Discovery**: Finds flags through various techniques
-5. **Submission**: Submits flags on Secure Flag platform
+5. **Submission**: Sends flags on the Secure Flag platform
 6. **Validation**: System verifies and assigns points
 7. **Ranking**: Real-time classification update
 
@@ -658,7 +656,7 @@ Flag Submission → Validation → Scoring
 
 ## Technologies and Tools
 
-### Technology Stack
+### Tech Stack
 
 #### Frontend
 - **HTML5/CSS3/JavaScript**: Yaldabaoth static sites
@@ -679,8 +677,8 @@ Flag Submission → Validation → Scoring
 - **GitHub Actions**: Automated CI/CD
 
 ### Applied Methodologies
-- Mobile-first development
-- Component-based architecture
+- Mobile-first Development
+- Component-based Architecture
 - Rigorous security validations
 - Comprehensive cross-browser testing
 
@@ -688,7 +686,7 @@ Flag Submission → Validation → Scoring
 
 ## Tests and Evidence
 
-### Testing Strategy
+### Test Strategy
 - **Responsiveness**: Tests on desktop, tablet, and mobile
 - **Security**: Input validation and XSS protection
 - **Functionality**: Verification of all interactions
@@ -699,7 +697,7 @@ Flag Submission → Validation → Scoring
 2. **Form Validation**
 3. **Flag Functionality**
 4. **Scoring System**
-5. **Mobile Device Responsiveness**
+5. **Responsiveness on Mobile Devices**
 
 ### Collected Evidence
 - Complete screenshots of all screens
@@ -727,7 +725,7 @@ Flag Submission → Validation → Scoring
 - Strengthening of technical skills
 - Development of critical thinking
 - Preparation for real market challenges
-- Formation of new talent in cybersecurity
+- Formation of new talents in cybersecurity
 
 ---
 
@@ -738,8 +736,8 @@ Flag Submission → Validation → Scoring
 - **Content and Documentation**: Creative Commons BY-NC-SA 4.0
 
 ### License Files
-- `LICENSE` - Complete terms of MIT License
-- `LICENSE-CC` - Complete terms of CC BY-NC-SA 4.0
+- `LICENSE` - Complete terms of the MIT License
+- `LICENSE-CC` - Complete terms of the CC BY-NC-SA 4.0
 
 ---
 
@@ -752,13 +750,13 @@ Flag Submission → Validation → Scoring
 - Translations to new languages
 
 ### Contribution Process
-1. Repository fork
+1. Fork the repository
 2. Descriptive branch (`feature/...` or `fix/...`)
 3. Commits with clear messages
 4. Pull Request with detailed description
 
 ### Code of Conduct
-- Respect for team and community
+- Respect for the team and community
 - Academic and educational focus
 - Technical quality and clarity
 - Adequate documentation
@@ -769,11 +767,11 @@ Flag Submission → Validation → Scoring
 
 **Advisor**: Prof. Rômulo Valadares - For specialized guidance and essential support
 
-**Institution**: UNICEPLAC - For infrastructure and academic environment
+**Institution**: UNICEPLAC - For the infrastructure and academic environment
 
-**Team**: Project colleagues - For dedicated effort and collaboration
+**Team**: Project colleagues - For the dedicated effort and collaboration
 
-**Contributors**: All who directly or indirectly supported this educational initiative
+**Contributors**: Everyone who directly or indirectly supported this educational initiative
 
 ---
 
@@ -805,7 +803,7 @@ Prof. Rômulo Valadares - UNICEPLAC
 - November: Tests and Refinements
 - December: Documentation and Delivery
 
-### Worked Content
+### Covered Content
 - Information Security
 - Attack Simulation
 - Forensic Log Analysis
@@ -813,8 +811,10 @@ Prof. Rômulo Valadares - UNICEPLAC
 - Network Analysis
 
 ### Bibliographic References
-1. CTFTIME - CTF events and structure
-2. HackerSec - Hacker challenge fundamentals
+1. CTFTIME - Events and CTF structure
+2. HackerSec - Fundamentals of hacker challenges
 3. UNB Cybersecurity Club - Teaching methodologies
 4. Correio Braziliense - Market context
 5. IBSEC - Sector statistics
+
+---

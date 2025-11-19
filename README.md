@@ -267,7 +267,7 @@ Submissão de Flags → Validação → Pontuação
 - **GitHub Actions**: CI/CD automatizado
 
 ### Metodologias Aplicadas
-- Desenvolvimento Mobile-first
+- Desenvolvimento Scrum
 - Arquitetura baseada em componentes
 - Validações de segurança rigorosas
 - Testes cross-browser abrangentes
@@ -677,7 +677,7 @@ Flag Submission → Validation → Scoring
 - **GitHub Actions**: Automated CI/CD
 
 ### Applied Methodologies
-- Mobile-first Development
+- Scrum Development
 - Component-based Architecture
 - Rigorous security validations
 - Comprehensive cross-browser testing

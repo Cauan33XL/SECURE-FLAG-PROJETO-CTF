@@ -9,6 +9,7 @@ import {
   LayoutGrid
 } from 'lucide-react'
 import { ReturnToSelector } from './components/shared/ui/ReturnToSelector'
+import { useMetadata } from './hooks/useMetadata'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
 }
 
 function ModuleSelector() {
+  useMetadata("PROJETO SECURE FLAG CTF", "/favicons/main.png")
   const [isDarkMode, setIsDarkMode] = useState(true)
   const [activeTab, setActiveTab] = useState('modulos')
 
@@ -425,6 +427,7 @@ function BaseWrapper({ src, title }: { src: string; title: string }) {
 }
 
 function HomeFrame() {
+  useMetadata("YALDABAOTH HOME", "/1-home/img/favicon.ico")
   return (
     <>
       <ReturnToSelector />
@@ -434,6 +437,7 @@ function HomeFrame() {
 }
 
 function HomeTeamFrame() {
+  useMetadata("YALDABAOTH HOME - TIME", "/1-home/img/favicon.ico")
   return (
     <>
       <ReturnToSelector />
@@ -443,6 +447,7 @@ function HomeTeamFrame() {
 }
 
 function RHFrame() {
+  useMetadata("SISTEMA DE RH", "/favicons/rh.png")
   return (
     <div style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>
       <ReturnToSelector />
@@ -452,6 +457,7 @@ function RHFrame() {
 }
 
 function EmailFrame() {
+  useMetadata("EMAIL CORPORATIVO", "/favicons/email.png")
   // Wrap the email module in a container to fill the screen
   return (
     <div style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>

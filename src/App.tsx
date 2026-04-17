@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import EmailApp from './modules/email/App'
 import RHApp from './modules/rh/App'
+import { HomePage } from './modules/home/HomePage'
+import { TeamPage } from './modules/home/TeamPage'
 import { 
   Home, Users, Mail, ShieldCheck, ChevronRight, Moon, Sun, 
   Info, Shield, Target, Zap, Cpu, Layers, Award, Terminal, 
@@ -420,28 +422,28 @@ function BaseWrapper({ src, title }: { src: string; title: string }) {
         border: 'none',
         overflow: 'auto',
       }}
-      allow="accelerometer; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+      allow="geolocation; microphone; camera; midi; encrypted-media"
       sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation"
     />
   )
 }
 
 function HomeFrame() {
-  useMetadata("YALDABAOTH HOME", "/1-home/img/favicon.ico")
+  useMetadata("YALDABAOTH HOME", "/assets/home/favicon.ico")
   return (
     <>
       <ReturnToSelector />
-      <BaseWrapper src="/1-home/index.html" title="Yaldabaoth Home" />
+      <HomePage />
     </>
   )
 }
 
 function HomeTeamFrame() {
-  useMetadata("YALDABAOTH HOME - TIME", "/1-home/img/favicon.ico")
+  useMetadata("YALDABAOTH HOME - TIME", "/assets/home/favicon.ico")
   return (
     <>
       <ReturnToSelector />
-      <BaseWrapper src="/1-home/team.html" title="Time de Especialistas" />
+      <TeamPage />
     </>
   )
 }

@@ -5,9 +5,7 @@ Projeto CTF acadêmico — Simulação de ataque forense a um banco fictício
 - **Acesso aos Links do projeto:**  
 
   - **Websites do Projeto SecureFlag:** 
-    - [Website - Yaldabaoth Home CTF Project](https://secure-flag-projeto-ctf.vercel.app)
-    - [Website - Yaldabaoth Email Corporate CTF Project](https://secure-flag-projeto-ctf.vercel.app)
-    - [Website - Sistema Simulado de RH](https://secure-flag-projeto-ctf.vercel.app)
+    - [Website - PROJETO SECURE FLAG CTF MÓDULOS](https://secure-flag-projeto-ctf.vercel.app)
 
   - **Plataforma Principal do Projeto CTF SecureFlag:** 
     - [Website - SecureFlag CTF Plataforma de Desafios](https://secureflagctf.svxsec.com/page)
@@ -412,9 +410,7 @@ Academic CTF Project — Forensic attack simulation on a fictional bank
 - **Access to Project Links:**
 
   - **SecureFlag Project Websites:**
-    - [Website - Yaldabaoth Home CTF Project](https://secure-flag-projeto-ctf.vercel.app)
-    - [Website - Yaldabaoth Email Corporate CTF Project](https://secure-flag-projeto-ctf.vercel.app)
-    - [Website - Simulated HR System](https://secure-flag-projeto-ctf.vercel.app)
+    - [Website - SECURE FLAG CTF MODULES PROJECT](https://secure-flag-projeto-ctf.vercel.app)
 
   - **Main SecureFlag CTF Platform:**
     - [Website - SecureFlag CTF Challenge Platform](https://secureflagctf.svxsec.com/page)

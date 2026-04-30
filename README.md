@@ -4,12 +4,6 @@ Projeto CTF acadêmico — Simulação de ataque forense a um banco fictício
 
 - **Acesso aos Links do projeto:**  
 
-  - **Github Repositórios:**
-    - [Github - Yaldabaoth Home CTF Project](https://github.com/Cauan33XL/yaldabaoth-home-ctf-project)
-    - [Github - Sistema Simulado de RH](https://github.com/Cauan33XL/SecureFlag-Sistema-Simulado-RH)
-    - [Github - Yaldabaoth Email Corporate CTF Project](https://github.com/Cauan33XL/yaldabaoth-email-corporate-ctf-project)
-
-
   - **Websites do Projeto SecureFlag:** 
     - [Website - Yaldabaoth Home CTF Project](https://secure-flag-projeto-ctf.vercel.app/)
     - [Website - Yaldabaoth Email Corporate CTF Project](https://secure-flag-projeto-ctf.vercel.app/)
